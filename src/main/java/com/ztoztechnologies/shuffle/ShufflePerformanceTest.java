@@ -50,8 +50,8 @@ public class ShufflePerformanceTest {
         for(int i = 0; i < 72; i++) { listN72.add((byte) 72); }
         for(int i = 0; i < 96; i++) { n96[i] = new Byte((byte) 96); }
         for(int i = 0; i < 96; i++) { listN96.add((byte) 96); }
-        for(int i = 0; i < 240; i++) { n96[i] = new Byte((byte) 240); }
-        for(int i = 0; i < 240; i++) { listN96.add((byte) 240); }
+        for(int i = 0; i < 240; i++) { n240[i] = new Byte((byte) 240); }
+        for(int i = 0; i < 240; i++) { listN240.add((byte) 240); }
     }
 
     @GenerateMicroBenchmark
